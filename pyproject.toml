@@ -5,7 +5,7 @@ description = "A Python project that analyzes the olist dataset using SQL and Du
 readme = "README.md"
 authors = [
     { name = "Lily Powell", email = "lcp00008@mix.wvu.edu" }
-    { name = "Olivia Donoghue", email = "ogd00007@mix.wvu.edu" }
+    ,{ name = "Olivia Donoghue", email = "ogd00007@mix.wvu.edu" }
 ]
 requires-python = ">=3.13"
 dependencies = [
@@ -13,6 +13,7 @@ dependencies = [
     "duckdb>=1.5.2",
     "loguru>=0.7.3",
     "polars>=1.39.3",
+    "pyarrow>=23.0.1",
 ]
 
 [project.scripts]
