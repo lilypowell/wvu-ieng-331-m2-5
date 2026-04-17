@@ -209,4 +209,5 @@ __marimo__/
 # Milestone 2 Project Files
 data/*.duckdb
 output/
+__pycache__/
 .DS_Store
